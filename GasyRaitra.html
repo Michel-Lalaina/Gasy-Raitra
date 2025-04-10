@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="./font/bootstrap-icons.css">
+    <link rel="stylesheet" href="GasyRaitra.css">
+    <title>GasyRaitra</title>
+</head>
+<body>
+<header>
+        <ul class="naviger_menu">
+            <li><h4>Bienvenue chez</h4><span class="badge bg-info"><strong>G.R</strong></span></li>
+            <li class="primo"> <button type="button" class="btn btn-outline-primary">AL Raitra</button> </li>
+            <li> <a href="#"> Lalao_be</a></li> <li> <a href="#"> Digital </a></li><li> <a href="#"> Lamaody </a></li>
+            <li><div class="recherches">
+                    <button class="btn btn-light recherche" class="recherche"><i class="bi bi-search"></i></button>
+                    <input type="text" class="form-control" placeholder="recherche">
+            </div></li>
+        </ul>
+            <div class="language">
+                    <select class="form-select" name="" id="">
+                    <option value="Anglais">Anglais</option><option value="Francais">Francais</option>
+                    <option value="Malagasy">Malagasy</option>
+                </select> 
+            </div>   
+</header>
+
+    <!-- the big cage center -->
+<div class="col-lg-11">
+    <div class="col_left"> <!--cote gauche -->
+            <div class="circle"> <i class="bi bi-cart-plus-fill"></i> </div>
+        <div class="col-little"> 
+            <Strong><ul><li>premier Produit</a> <br>Prix de 10$</li>
+                <li>Second produit<br>Prix de 20$</li>
+                <li>Troisieme produit<br>Prix de 6$</li>
+            </ul></Strong>
+                    <button class="mt-5 btn btn-outline-light mx-auto rounded-5" id="open" >
+                        <i class="bi bi-person-circle"></i> Membre GR</button>
+            </div>
+    </div>
+    <div class="col_reigth">  <!--cote droite -->
+
+            <div class="col-lg-3">
+                <img src="./image_prod/pomme_sec3.jpg" class="animer1" width="190px" height="140px">
+                    <h5>Fruits sechee</h5>
+                    <p>Some quick example text to build  make.</p>
+                    <a href="#" class="btn btn-success"><i class="bi bi-cart3"></i>Consulter</a>
+            </div>
+            <div class="col-lg-3">
+                <img src="./image_prod/harona.jpg" class="animer2" width="190px" height="140px">
+                    <h5>Artisanaux</h5>
+                    <p>Some quick example text to build on and make.</p>
+                    <a href="#" class="btn btn-primary"><i class="bi bi-cart-fill"></i>Consulter</a>
+            </div>
+            <div class="col-lg-3">
+                <img src="./image_prod/produit_raitra.jpg" class="animer3" width="190px" height="140px">
+                    <h5>Produit 100% naurel</h5>
+                    <p>to build on the card title and make.</p>
+                    <a href="#" class="btn btn-info"><i class="bi bi-cart-plus-fill"></i>Consulter</a>
+            </div>
+        </div> 
+</div>      
+
+<script src="./GasyRaitra.js"></script>
+<div class="container">
+    <div class="modal-content rounded-4 shadow">
+          <div class="modal-header p-5 pb-4 border-bottom-0">
+            <h4 class="fw-bold mb-0 fs-2-primary">GR member</h4>
+            <button type="button" class="btn-close" aria-label="Close" onclick="closeModale()">X</button>
+          </div>
+          <div class="modal-body p-5 pt-0">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+              <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign in</button><hr class="my-3">
+              <h2 class="fs-6 fw-bold mb-3">Sing in as GR General Manager</h2>
+              <button class="w-100 py-2 mb-2 btn btn-outline-light rounded-3" type="submit">
+                <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"/></svg>
+                Sign in as Admin
+              </button>
+          </div>
+    </div>
+</div>
+</body>
+</html>
