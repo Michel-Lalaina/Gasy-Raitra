@@ -23,7 +23,7 @@ span{ font-size:large !important;}
     list-style: none;
     margin: 0 15px;
 }
-    .recherches{ /* decal All boutton and input herche */
+    .recherches{ 
          margin-left: 2cm;
     }
         .naviger_menu li:nth-child(4){ /*Personalization the 4 button li */
