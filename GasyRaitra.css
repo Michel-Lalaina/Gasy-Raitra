@@ -51,7 +51,7 @@ span{ font-size:large !important;}
     color: #fff;
     font-size: 17px;
 }
-    .recherche{/* button cherche in header */
+    .recherche{
         width: 48px;
         height: 40px;
         border-radius: 50px 0 0 50px !important;
